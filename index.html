@@ -1,12 +1,231 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="./output.css">
-    <title>Document</title>
+    <title>Landing Page</title>
 </head>
-<body>
-    
+
+<body class="h-screen">
+    <section class="relative overflow-hidden min-h-screen bg-[#0B1020] bg-[url('grid-pattern.png')] bg-cover
+    bg-center
+    bg-no-repeat">
+
+        <div class="sticky top-4 z-50 px-6">
+
+            <header class="max-w-7xl mx-auto
+            rounded-2xl
+            bg-white/3
+            backdrop-blur-2xl
+            border border-white/10
+            shadow-[0_8px_32px_rgba(0,0,0,.35)]
+            text-white">
+
+                <nav class="flex justify-between items-center px-8 py-5">
+
+                    <div class="flex justify-center items-center gap-2">
+                        <div
+                            class="w-8 h-8 rounded-lg bg-gradient-to-r from-purple-500 to-indigo-500 flex justify-center items-center">
+                            <i class="fa-solid fa-cube text-white text-sm"></i>
+                        </div>
+
+                        <h2 class="text-white font-bold text-xl">
+                            FlowApp
+                        </h2>
+                    </div>
+
+
+                    <ul class="hidden md:flex items-center gap-8">
+
+                        <li>
+                            <a href="#" class="hover:text-blue-400 transition">
+                                Features
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="hover:text-blue-400 transition">
+                                Pricing
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#" class="hover:text-blue-400 transition">
+                                Reviews
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#"
+                                class=" bg-gradient-to-r from-indigo-500 to-purple-600 transition px-6 py-3 rounded-full">
+                                Get Started
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <div class="md:hidden text-3xl cursor-pointer">
+                        ☰
+                    </div>
+
+                </nav>
+
+            </header>
+
+        </div>
+
+        
+
+        <div class="absolute w-[650px] h-[650px] rounded-full bg-blue-700/20 blur-[120px] left-1/2 -translate-x-1/2">
+        </div>
+
+
+        <div class=" max-w-7xl mx-auto px-8 py-20 flex flex-col lg:flex-row items-center gap-16">
+
+            <div class="flex-1 text-center lg:text-left">
+
+                <div class="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5  border border-white/10 gap-3 md:text-center">
+                    <span class="rounded-full bg-green-400 animate-ping size-2"></span>
+                    <span class="text-white"> Now with ai powered Features</span>
+                    <span class="bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-2xl px-2">NEW</span>
+
+                </div>
+
+                <h1 class="text-white text-5xl md:text-7xl font-bold leading-tight">
+
+                    Build products
+                    <span
+                        class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-600"">
+                        Users love
+                    </span>
+
+                </h1>
+
+                <p class=" text-white/80 mt-8 text-lg leading-8 max-w-xl lg:text-left md:text-center">
+
+                        The all-in-one platform for team to collaborate,
+                        design and ship amazing products 10x faster
+
+                        </p>
+
+                        <div class="flex flex-col sm:flex-row gap-5 mt-10 justify-center lg:justify-start">
+
+                            <button
+                                class="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-8 py-4 rounded-2xl font-semibold hover:scale-105 transition">
+
+                                Start Free Trial →
+
+                            </button>
+
+                            <button
+                                class="border flex justify-center gap-3 border-white/30 text-white px-8 py-4 rounded-2xl hover:bg-white hover:text-black transition">
+
+                                <span><i class="fa-solid fa-play"></i></span>
+                                <p>Watch Demo</p>
+
+                            </button>
+
+                        </div>
+
+                        <div class="flex mt-10">
+
+                            <div class="flex -space-x-2">
+
+                                <img class="h-10 w-10 rounded-full border-[#0B1020]"
+                                    src="https://randomuser.me/api/portraits/men/1.jpg" alt="User">
+
+                                <img class="h-10 w-10 rounded-full border-[#0B1020]"
+                                    src="https://randomuser.me/api/portraits/women/2.jpg" alt="User">
+
+                                <img class="h-10 w-10 rounded-full border-[#0B1020]"
+                                    src="https://randomuser.me/api/portraits/men/3.jpg" alt="User">
+
+                                <div
+                                    class="flex h-10 w-10 items-center justify-center rounded-full border-2 border-[#0B1020] bg-purple-600 text-xs text-white">
+
+                                    +12
+
+                                </div>
+
+                            </div>
+
+                            <div class="px-3">
+
+                                <div>
+                                    ⭐⭐⭐⭐
+                                </div>
+
+                                <p class="text-sm text-gray-400">
+
+                                    Trusted by 2,000+ teams worldwide
+
+                                </p>
+                            </div>
+
+                        </div>
+            </div>
+
+            <div class="relative flex-1 flex justify-center">
+
+                <div>
+                    <img class="rounded-3xl shadow-2xl w-full max-w-xl object-cover" src="./right side image.png">
+                </div>
+
+                <div
+                    class="absolute -bottom-6 -left-8 flex items-center gap-3 rounded-2xl bg-white/10 backdrop-blur-xl border px-5 py-4 animate-pulse">
+
+                    <div class="flex h-10 w-10 items-center justify-center rounded-full bg-blue-500">
+                        <i class="fa-solid fa-check text-white text-sm"></i>
+                    </div>
+
+                    <div>
+                        <p class="text-white ">Task completed</p>
+                        <p class="text-white text-sm">Project submitted</p>
+                    </div>
+                </div>
+
+                <div
+                    class="absolute -top-6 -right-8 flex items-center gap-3 rounded-2xl bg-white/10 backdrop-blur-xl border px-5 py-4 animate-pulse">
+
+                    <div class="flex h-10 w-10 items-center justify-center rounded-full bg-green-400">
+                        <i class="fa-solid fa-arrow-trend-up text-white text-xl"></i>
+                    </div>
+
+                    <div>
+                        <p class="text-white ">+127%</p>
+                        <p class="text-white ">Productivity</p>
+                    </div>
+                </div>
+
+                <div class="absolute top-1/2 -right-30 flex items-center justify-center gap-3 rounded-2xl bg-white/10 backdrop-blur-xl border px-5 py-4 animate-bounce">
+
+                    <div class="flex  -space-x-2">
+
+                        <div class="rounded-full size-5 bg-blue-500"></div>
+                        <div class="rounded-full size-5 bg-purple-500"></div>
+                        <div class="rounded-full size-5 bg-pink-500"></div>
+
+                    </div>
+
+                    <div>
+                        <p class="text-white ">Task completed</p>
+                        <p class="text-white text-sm">Project submitted</p>
+                    </div>
+
+                </div>
+
+                
+
+
+            </div>
+
+        </div>
+
+    </section>
+
 </body>
+
 </html>
