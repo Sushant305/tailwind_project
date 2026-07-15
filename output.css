@@ -1666,6 +1666,16 @@
       }
     }
   }
+  .hover\:border-blue-500\/60 {
+    &:hover {
+      @media (hover: hover) {
+        border-color: color-mix(in srgb, oklch(62.3% 0.214 259.815) 60%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          border-color: color-mix(in oklab, var(--color-blue-500) 60%, transparent);
+        }
+      }
+    }
+  }
   .hover\:border-green-500 {
     &:hover {
       @media (hover: hover) {
@@ -1680,10 +1690,40 @@
       }
     }
   }
+  .hover\:border-purple-500\/60 {
+    &:hover {
+      @media (hover: hover) {
+        border-color: color-mix(in srgb, oklch(62.7% 0.265 303.9) 60%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          border-color: color-mix(in oklab, var(--color-purple-500) 60%, transparent);
+        }
+      }
+    }
+  }
+  .hover\:border-red-500\/60 {
+    &:hover {
+      @media (hover: hover) {
+        border-color: color-mix(in srgb, oklch(63.7% 0.237 25.331) 60%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          border-color: color-mix(in oklab, var(--color-red-500) 60%, transparent);
+        }
+      }
+    }
+  }
   .hover\:border-yellow-500 {
     &:hover {
       @media (hover: hover) {
         border-color: var(--color-yellow-500);
+      }
+    }
+  }
+  .hover\:border-yellow-500\/60 {
+    &:hover {
+      @media (hover: hover) {
+        border-color: color-mix(in srgb, oklch(79.5% 0.184 86.047) 60%, transparent);
+        @supports (color: color-mix(in lab, red, red)) {
+          border-color: color-mix(in oklab, var(--color-yellow-500) 60%, transparent);
+        }
       }
     }
   }
@@ -1736,6 +1776,14 @@
     &:hover {
       @media (hover: hover) {
         color: var(--color-white);
+      }
+    }
+  }
+  .hover\:shadow-\[0_15px_35px_rgba\(139\,92\,246\,0\.2\)\] {
+    &:hover {
+      @media (hover: hover) {
+        --tw-shadow: 0 15px 35px var(--tw-shadow-color, rgba(139,92,246,0.2));
+        box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
       }
     }
   }
