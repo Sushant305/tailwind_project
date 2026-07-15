@@ -9,12 +9,12 @@
     <title>Landing Page</title>
 </head>
 
-<body class="h-screen">
+<body class="h-screen bg-[#0B1020]">
     <section class="relative overflow-hidden min-h-screen bg-[#0B1020] bg-[url('grid-pattern.png')] bg-cover
     bg-center
-    bg-no-repeat">
+    bg-no-repeat mb-4">
 
-        <div class="sticky top-4 z-50 px-6">
+        <div class="fixed top-4 left-0 w-full z-50 px-6">
 
             <header class="max-w-7xl mx-auto
             rounded-2xl
@@ -24,7 +24,7 @@
             shadow-[0_8px_32px_rgba(0,0,0,.35)]
             text-white">
 
-                <nav class="flex justify-between items-center px-8 py-5">
+                <nav class="flex justify-between items-center px-8 py-5 ">
 
                     <div class="flex justify-center items-center gap-2">
                         <div
@@ -77,17 +77,18 @@
 
         </div>
 
-        
+
 
         <div class="absolute w-[650px] h-[650px] rounded-full bg-blue-700/20 blur-[120px] left-1/2 -translate-x-1/2">
         </div>
 
 
-        <div class=" max-w-7xl mx-auto px-8 py-20 flex flex-col lg:flex-row items-center gap-16">
+        <div class=" max-w-7xl mx-auto px-8 py-20 flex flex-col lg:flex-row items-center gap-16 mt-10">
 
             <div class="flex-1 text-center lg:text-left">
 
-                <div class="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5  border border-white/10 gap-3 md:text-center">
+                <div
+                    class="flex items-center gap-2 px-4 py-2 rounded-full bg-white/5  border border-white/10 gap-3 md:text-center">
                     <span class="rounded-full bg-green-400 animate-ping size-2"></span>
                     <span class="text-white"> Now with ai powered Features</span>
                     <span class="bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-2xl px-2">NEW</span>
@@ -200,7 +201,8 @@
                     </div>
                 </div>
 
-                <div class="absolute top-1/2 -right-30 flex items-center justify-center gap-3 rounded-2xl bg-white/10 backdrop-blur-xl border px-5 py-4 animate-bounce">
+                <div
+                    class="absolute top-1/2 -right-30 flex items-center justify-center gap-3 rounded-2xl bg-white/10 backdrop-blur-xl border px-5 py-4 animate-bounce">
 
                     <div class="flex  -space-x-2">
 
@@ -217,14 +219,132 @@
 
                 </div>
 
-                
+
 
 
             </div>
 
         </div>
 
+
+
     </section>
+    <section class="relative overflow-hidden min-h-screen bg-[#0B1020]">
+        <div class="grid grid-cols-1 xl:grid-cols-3 auto-rows-[150px] gap-6 p-4">
+
+            <div class=" rounded-xl xl:col-span-2 xl:row-span-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 p-2">
+                <div class="flex  justify-center gap-3">
+
+                    <div class="w-1/2 p-3 ">
+                        <div class="bg-purple-400 rounded-2xl size-15 flex justify-center items-center">🚀</div>
+                        <h2 class="text-white font-bold mt-3 text-2xl">AI-Powered Automation</h2>
+                        <p class="text-gray-400 leading-7 mb-8 mt-3 ">
+                            Let AI handle repetitive tasks while you focus on what truly
+                            matters. Smart integration, task automation, and real-time
+                            workflows.
+                        </p>
+                        <div class="flex flex-wrap gap-3">
+
+                            <span
+                                class="px-4 py-1 rounded-full bg-white/10 text-gray-300 text-sm border border-white/10">
+                                Smart Automation
+                            </span>
+
+                            <span
+                                class="px-4 py-1 rounded-full bg-white/10 text-gray-300 text-sm border border-white/10">
+                                AI Process
+                            </span>
+
+                            <span
+                                class="px-4 py-1 rounded-full bg-white/10 text-gray-300 text-sm border border-white/10">
+                                Workflow
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="flex justify-center w-1/2 h-80 items-center overflow-hidden p-3 ">
+                        <img class="w-full rounded-lg  h-full object-contain " src="./right side image.png" alt="">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="bg-[#111827] p-3 rounded-xl">
+                <div
+                    class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500/20 to-purple-500/20 flex items-center justify-center mb-2">
+                    <i class="fa-solid fa-bolt text-orange-400"></i>
+                </div>
+                <h3 class="text-white text-xl font-semibold mb-1">
+                    Lightning Fast
+                </h3>
+                <p class="text-gray-400 text-sm">
+                    Experience blazing-fast performance with optimized architecture and
+                    instant response times.
+                </p>
+            </div>
+
+            <div class="bg-[#111827] p-3 rounded-xl">
+                <div
+                    class="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500/20 to-green-500/20 flex items-center justify-center mb-2">
+                    <i class="fa-solid fa-shield-halved text-white"></i>
+                </div>
+                <h3 class="text-white text-xl font-semibold mb-1">
+                    Bank-Level Security
+                </h3>
+                <p class="text-gray-400 text-sm">
+                    Your Data is protected with end-to-end encryption and 
+                    enterprise-gradde security standard
+                </p>
+            </div>
+
+            <div class="bg-[#111827] p-3 rounded-xl">
+                <div
+                    class="w-12 h-12 rounded-xl bg-gradient-to-br from-orange-500/20 to-red-500/20 flex items-center justify-center mb-2">
+                    <i class="fa-solid fa-users text-yellow-400"></i>
+                </div>
+                <h3 class="text-white text-xl font-semibold mb-1">
+                    Team collaboration 
+                </h3>
+                <p class="text-gray-400 text-sm">
+                    Built for teams to caollaborate seamlessly with shared workspace and smart communication
+                </p>
+            </div>
+
+            <div class="bg-[#111827] p-3 rounded-xl">
+                <div
+                    class="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-200/20 to-blue-500/20 flex items-center justify-center mb-2">
+                    <i class="fa-solid fa-rotate text-white"></i>
+                </div>
+                <h3 class="text-white text-xl font-semibold mb-1">
+                    Real-time Sync 
+                </h3>
+                <p class="text-gray-400 text-sm">
+                    Teams stay aligned with real-time synchroniztion across all devices and platforms 
+                </p>
+            </div>
+
+            <div class="bg-[#111827] p-3 rounded-xl">
+                <div
+                    class="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500/20 to-purple-700/20 flex items-center justify-center mb-2">
+                    <i class="fa-solid fa-star text-white"></i>
+                </div>
+                <h3 class="text-white text-xl font-semibold mb-1">
+                    Advanced-Analytics
+                </h3>
+                <p class="text-gray-400 text-sm">
+                    Get deep insights with advanced Advanced-Analytics and custom reports to make date-driven decision 
+                </p>
+            </div>
+
+          
+        </div>
+    </section>
+
+
+
 
 </body>
 
